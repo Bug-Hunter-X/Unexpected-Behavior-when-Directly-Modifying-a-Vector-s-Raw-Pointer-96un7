@@ -1,0 +1,1 @@
+This repository showcases an uncommon but potentially problematic scenario in Rust involving unsafe code and vector manipulation. The `bug.rs` file contains code that directly modifies a vector's raw pointer, leading to a mismatch between the expected and actual vector content.  The solution in `bugSolution.rs` demonstrates the correct way to update vector elements.
